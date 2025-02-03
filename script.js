@@ -1,3 +1,4 @@
 document.addEventListener("DOMContentLoaded", function() {
-    console.log("Blog migliorato con sidebar e navigazione!");
+  console.log("Blog con Biografia e design aggiornato!");
 });
+
