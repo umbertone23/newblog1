@@ -1,86 +1,100 @@
+/* Colori principali: blu scuro e bianco */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  color: #001f3f; /* Blu scuro */
 }
 
 /* Header */
 header {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 15px;
+  background-color: #001f3f;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
 }
 
 nav ul {
-    list-style: none;
-    padding: 0;
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
 }
 
 nav ul li {
-    display: inline;
-    margin: 0 15px;
+  display: inline;
+  margin: 0 15px;
 }
 
 nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
 }
 
-/* Layout */
+/* Layout principale */
 .container {
-    display: flex;
-    max-width: 1000px;
-    margin: 20px auto;
+  display: flex;
+  max-width: 1000px;
+  margin: 20px auto;
 }
 
 /* Sidebar */
 .sidebar {
-    width: 250px;
-    background: white;
-    padding: 20px;
-    text-align: center;
-    box-shadow: 0px 0px 10px gray;
+  width: 250px;
+  background: #f9f9f9;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
 }
 
 .profile-pic {
-    width: 100px;
-    border-radius: 50%;
-    margin-bottom: 15px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
 }
 
 .contacts a {
-    display: block;
-    color: #333;
-    text-decoration: none;
-    margin: 10px 0;
+  display: block;
+  color: #001f3f;
+  text-decoration: none;
+  margin: 10px 0;
 }
 
 .contacts i {
-    margin-right: 5px;
+  margin-right: 5px;
 }
 
-/* Blog Post */
+/* Contenuto principale */
 main {
-    flex: 1;
-    background: white;
-    padding: 20px;
-    box-shadow: 0px 0px 10px gray;
+  flex: 1;
+  background: #fff;
+  padding: 20px;
+  margin-left: 20px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
 }
 
-article {
-    border-bottom: 1px solid #ddd;
-    padding: 10px 0;
+.biografia h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  /* Testo con effetto sfumato */
+  background: linear-gradient(90deg, #001f3f, #0074D9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.biografia p {
+  font-size: 1.1em;
+  line-height: 1.6;
 }
 
 /* Footer */
 footer {
-    text-align: center;
-    padding: 10px;
-    background: #333;
-    color: white;
-    margin-top: 20px;
+  text-align: center;
+  padding: 15px;
+  background: #001f3f;
+  color: #fff;
+  margin-top: 20px;
 }
-
