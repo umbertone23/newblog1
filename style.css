@@ -1,3 +1,43 @@
+/* Stile per l'header moderno con blu scuro e bianco */
+header {
+  background-color: #002147; /* Blu scuro */
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 10px 15px;
+  transition: 0.3s;
+}
+
+nav ul li a:hover {
+  background-color: white;
+  color: #002147;
+  border-radius: 5px;
+}
+
 /* Stile per l'immagine a tutta larghezza */
 .hero {
   position: relative;
@@ -51,4 +91,12 @@
 .contatti img {
   width: 40px;
   height: auto;
+}
+
+/* Stile per la biografia */
+.biografia {
+  text-align: center;
+  padding: 40px;
+  background-color: #f5f5f5;
+  color: #002147;
 }
