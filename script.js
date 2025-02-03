@@ -1,3 +1,3 @@
 document.addEventListener("DOMContentLoaded", function() {
-    console.log("Blog caricato con successo!");
+    console.log("Blog migliorato con sidebar e navigazione!");
 });
