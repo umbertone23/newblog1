@@ -1,11 +1,16 @@
-/* Rimuovo i margini di default per utilizzare l'intera larghezza */
-body {
+/* RESET BASE */
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
-/* -------------------------- */
-/* HEADER: Blu scuro con testo bianco e menu moderno */
+html, body {
+  width: 100%;
+  overflow-x: hidden; /* Nasconde eventuali overflow orizzontali */
+}
+
+/* HEADER: Sfondo blu scuro, testo e menu in bianco, larghezza piena */
 header {
   background-color: #002147; /* Blu scuro */
   color: white;
@@ -13,10 +18,12 @@ header {
   padding: 20px;
   width: 100%;
 }
+
 header h1 {
   margin: 0;
   font-size: 28px;
 }
+
 nav ul {
   list-style: none;
   padding: 0;
@@ -25,6 +32,7 @@ nav ul {
   justify-content: center;
   gap: 20px;
 }
+
 nav ul li a {
   text-decoration: none;
   color: white;
@@ -33,61 +41,69 @@ nav ul li a {
   padding: 10px 15px;
   transition: background-color 0.3s, color 0.3s;
 }
+
 nav ul li a:hover {
   background-color: white;
   color: #002147;
   border-radius: 5px;
 }
 
-/* -------------------------- */
 /* BIOGRAFIA: Sezione a sfondo blu scuro, testo bianco, due colonne */
 .biografia {
   background-color: #002147; /* Blu scuro */
   color: white;
   display: flex;
-  padding: 40px;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
+  padding: 40px;
   width: 100%;
+  /* Assicura che l'area non ecceda la larghezza dello schermo */
+  max-width: 100vw;
 }
+
 .profile-container {
   flex: 0 0 250px; /* Larghezza fissa per la colonna sinistra */
   text-align: center;
   margin-bottom: 20px;
 }
+
 .profile-container img {
   width: 150px;
   height: 150px;
   border-radius: 50%;
   object-fit: cover;
 }
+
 .profile-container .contatti {
   margin-top: 20px;
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
+
 .profile-container .contatti a img {
   width: 40px;
   height: auto;
 }
+
 .text-container {
   flex: 1;
   padding: 0 20px;
   text-align: center;
 }
+
 .text-container h2 {
   margin-bottom: 20px;
   font-size: 26px;
 }
+
 .text-container p {
   font-size: 18px;
   line-height: 1.6;
 }
 
-/* -------------------------- */
-/* FOOTER */
+/* FOOTER: Larghezza piena */
 footer {
   text-align: center;
   padding: 15px;
