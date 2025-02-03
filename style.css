@@ -58,8 +58,6 @@ nav ul li a:hover {
   justify-content: center;
   padding: 20px;
   width: 100%;
-  /* Assicura che l'area non ecceda la larghezza dello schermo */
-  max-width: 100vw;
 }
 
 .profile-container {
