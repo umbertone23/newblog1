@@ -5,16 +5,66 @@ body {
     background-color: #f4f4f4;
 }
 
+/* Header */
 header {
     background-color: #333;
     color: white;
     text-align: center;
-    padding: 1em;
+    padding: 15px;
 }
 
-main {
-    max-width: 800px;
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Layout */
+.container {
+    display: flex;
+    max-width: 1000px;
     margin: 20px auto;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 250px;
+    background: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 0px 10px gray;
+}
+
+.profile-pic {
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.contacts a {
+    display: block;
+    color: #333;
+    text-decoration: none;
+    margin: 10px 0;
+}
+
+.contacts i {
+    margin-right: 5px;
+}
+
+/* Blog Post */
+main {
+    flex: 1;
     background: white;
     padding: 20px;
     box-shadow: 0px 0px 10px gray;
@@ -25,6 +75,7 @@ article {
     padding: 10px 0;
 }
 
+/* Footer */
 footer {
     text-align: center;
     padding: 10px;
@@ -32,3 +83,4 @@ footer {
     color: white;
     margin-top: 20px;
 }
+
