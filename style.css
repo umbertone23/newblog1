@@ -40,20 +40,6 @@ nav ul li a:hover {
 }
 
 /* -------------------------- */
-/* HERO: Video a tutta larghezza come banner */
-.hero {
-  position: relative;
-  width: 100%;
-  height: 400px; /* Regola l'altezza secondo le tue esigenze */
-  overflow: hidden;
-}
-.video-banner {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-/* -------------------------- */
 /* BIOGRAFIA: Sezione a sfondo blu scuro, testo bianco, due colonne */
 .biografia {
   background-color: #002147; /* Blu scuro */
