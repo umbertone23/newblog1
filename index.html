@@ -1,58 +1,61 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mottolalex</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Il Mio Blog</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Includo Font Awesome per le icone -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header>
-        <h1>Il Mio Blog</h1>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Contatti</a></li>
-            </ul>
-        </nav>
-    </header>
+  <!-- Header con menu di navigazione -->
+  <header>
+    <h1>Il Mio Blog</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contatti</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <div class="container">
-        <!-- Sidebar a sinistra -->
-        <aside class="sidebar">
-            <img src="profile.jpg" alt="La mia foto" class="profile-pic">
-            <div class="contacts">
-                <a href="https://www.linkedin.com/in/tuo-profilo" target="_blank">
-                    <i class="fab fa-linkedin"></i> LinkedIn
-                </a>
-                <a href="mailto:tuo@email.com">
-                    <i class="fas fa-envelope"></i> Email
-                </a>
-                <a href="tel:+39123456789">
-                    <i class="fas fa-phone"></i> +39 123 456 789
-                </a>
-            </div>
-        </aside>
+  <div class="container">
+    <!-- Sidebar a sinistra -->
+    <aside class="sidebar">
+      <!-- Assicurati di caricare "profile.jpg" nella repository -->
+      <img src="profile.jpg" alt="La mia foto" class="profile-pic">
+      <div class="contacts">
+        <a href="https://www.linkedin.com/in/tuo-profilo" target="_blank">
+          <i class="fab fa-linkedin"></i> LinkedIn
+        </a>
+        <a href="mailto:tuo@email.com">
+          <i class="fas fa-envelope"></i> Email
+        </a>
+        <a href="tel:+39123456789">
+          <i class="fas fa-phone"></i> +39 123 456 789
+        </a>
+      </div>
+    </aside>
 
-        <!-- Contenuto principale -->
-        <main>
-            <article>
-                <h2>Primo Post</h2>
-                <p>Benvenuto nel mio blog! Questo è il primo articolo.</p>
-            </article>
-            <article>
-                <h2>Secondo Post</h2>
-                <p>Ecco un altro articolo interessante!</p>
-            </article>
-        </main>
-    </div>
+    <!-- Contenuto principale -->
+    <main>
+      <section class="biografia">
+        <h2>Biografia</h2>
+        <p>
+          Benvenuto nel mio blog! Qui potrai leggere la mia storia, le mie esperienze e le passioni che mi guidano ogni giorno.
+          Racconto la mia vita, i progetti a cui lavoro e le sfide che ho affrontato, sempre con l’obiettivo di ispirare chi mi segue.
+        </p>
+      </section>
+    </main>
+  </div>
 
-    <footer>
-        <p>&copy; 2025 Il Mio Blog</p>
-    </footer>
+  <footer>
+    <p>&copy; 2025 Il Mio Blog</p>
+  </footer>
 
-    <script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
+
